@@ -63,18 +63,14 @@ nav a:hover {
 
 
 /* Cartão Benefício - lado esquerdo */
-.cartao-beneficio {
-  background: #5c3dd3;
-  border-radius: 36px;
-  padding: 30px 25px;
-  width: 280px;
-  color: white;
-  box-shadow: 0 8px 20px rgb(226, 7, 153);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.img-cartao {
+  width: 520px;
+  height: auto;
+  object-fit: cover; /* se quiser cortar e preencher */
+  border-radius: 16px;
 }
+
+
 .cartao-topo i {   /* add img ao cartão */
   font-size: 48px;
   margin-bottom: 5px;
@@ -369,20 +365,7 @@ nav a:hover {
   font-size: 14px;
   border-radius: 6px;
 }
-.cartao-beneficio {
-  width: 340px;
-  height: 200px;
-  background: #fff;
-  border-radius: 16px;
-  padding: 20px;
-  transform: rotate(2deg);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'Inter', sans-serif;
-  color: #333;
-}
+
 
 .cartao-topo {
   font-size: 40px;
